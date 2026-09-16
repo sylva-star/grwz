@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="钟琳的个人简历：初高中成长经历、大学学习积累与联系方式">
+  <title>钟琳 · 个人简历</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 背景层：粒子与蓝紫渐变光晕，所有内容都放在其上方 -->
+  <div class="bg-scene" aria-hidden="true">
+    <div class="bg-scene__glow"></div>
+    <div class="bg-scene__grid"></div>
+    <canvas id="particles"></canvas>
+  </div>
+
+  <!-- 顶部导航栏 -->
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#home" aria-label="返回首页">
+      <span class="brand__mark">ZL</span>
+      <span class="brand__name">钟琳</span>
+    </a>
+    <nav class="nav-links" aria-label="页面导航">
+      <a href="#about">关于我</a>
+      <a href="#experience">成长经历</a>
+      <a href="#university">大学积累</a>
+      <a href="#contact">联系方式</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero 首屏：姓名、职业、座右铭，可直接替换对应文字 -->
+    <section class="hero" id="home">
+      <div class="hero__content">
+        <p class="hero__greeting hero-anim hero-anim--1">你好，我是</p>
+        <h1 class="hero__name hero-anim hero-anim--2">钟琳</h1>
+        <p class="hero__role hero-anim hero-anim--3">我是一名大一新生，正在学习人工智能相关内容与 PPT 制作。</p>
+        <p class="hero__motto hero-anim hero-anim--4">宝剑锋从磨砺出，梅花香自苦寒来</p>
+        <a class="hero__cta hero-anim hero-anim--5" href="#about">
+          <span>浏览简历</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 5v14"></path>
+            <path d="m19 12-7 7-7-7"></path>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- 关于我：真实个人简介 -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <span class="section-heading__index">01</span>
+          <h2 class="section-heading__title">关于我</h2>
+        </div>
+        <div class="about__panel glass-card" data-reveal style="--reveal-delay: .12s">
+          <p class="about__text">
+            你好，我是钟琳，黑龙江工程学院功能材料专业大一新生。初高中期间，我先后担任班长、团支书、心理委员和体育委员，也参与过社团招新、班级管理与校园活动策划。现在，我正在学习人工智能相关内容与 PPT 制作，希望把过去积累的组织协调、数据整理和沟通能力，继续延伸到大学阶段的 AI 实践与内容表达中。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 成长经历：初高中与社团经历 -->
+    <section class="section resume" id="experience">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <span class="section-heading__index">02</span>
+          <h2 class="section-heading__title">成长经历</h2>
+        </div>
+
+        <div class="resume-grid">
+          <div class="glass-card card-block" data-reveal>
+            <div class="card-block__heading">
+              <span class="card-block__dot" aria-hidden="true"></span>
+              <h3>初高中与社团</h3>
+            </div>
+            <ol class="timeline">
+              <li class="timeline__item">
+                <span class="timeline__date">2025.09 - 2026.06</span>
+                <h4 class="timeline__title">星学社 · 核心成员 / 招新活动组织者</h4>
+                <p class="timeline__desc">
+                  参与年度招新宣传、报名、面试与入社全流程，覆盖潜在社员 200+ 人，报名人数较上届提升 2%。维护新社员答疑社群，新成员 7 日留存率保持在 95% 以上，并参与复盘输出标准化执行手册。
+                </p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__date">2023.09 - 2026.06</span>
+                <h4 class="timeline__title">高中班级 · 班长（高一）/ 团支书 / 心理委员</h4>
+                <p class="timeline__desc">
+                  高一担任班长，参与班级日常管理与师生沟通；之后转任团支书，负责团务联络与相关材料协助；高中期间持续担任心理委员，建立班级心理晴雨表并定期更新，协助班主任完成心理健康排查与情绪风险反馈。高中阶段女子 1500 米获全校第七。
+                </p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__date">2020.09 - 2023.06</span>
+                <h4 class="timeline__title">初中班级 · 班长 / 卫生委员 / 体育委员</h4>
+                <p class="timeline__desc">
+                  组织元旦晚会等班级活动 3 场，每场参与人数 50+，活动满意度约 90%，班级连续 6 学期获评“优秀班级”。负责卫生管理期间检查达标率保持 100%，并以体育委员身份参与运动会组织，个人获女子 800 米全校第一（含体育生）。
+                </p>
+              </li>
+            </ol>
+          </div>
+
+          <div class="glass-card card-block" data-reveal style="--reveal-delay: .12s">
+            <div class="card-block__heading">
+              <span class="card-block__dot card-block__dot--cyan" aria-hidden="true"></span>
+              <h3>能力与特长</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-row">
+                <div class="skill-row__head">
+                  <span class="skill-row__name">人工智能训练</span>
+                  <span class="skill-row__level">85%</span>
+                </div>
+                <div class="skill-row__track">
+                  <span class="skill-row__fill" style="--fill: 85%;"></span>
+                </div>
+              </li>
+              <li class="skill-row">
+                <div class="skill-row__head">
+                  <span class="skill-row__name">办公软件与数据整理</span>
+                  <span class="skill-row__level">80%</span>
+                </div>
+                <div class="skill-row__track">
+                  <span class="skill-row__fill" style="--fill: 80%;"></span>
+                </div>
+              </li>
+              <li class="skill-row">
+                <div class="skill-row__head">
+                  <span class="skill-row__name">组织管理与活动统筹</span>
+                  <span class="skill-row__level">88%</span>
+                </div>
+                <div class="skill-row__track">
+                  <span class="skill-row__fill" style="--fill: 88%;"></span>
+                </div>
+              </li>
+              <li class="skill-row">
+                <div class="skill-row__head">
+                  <span class="skill-row__name">心理支持与沟通</span>
+                  <span class="skill-row__level">75%</span>
+                </div>
+                <div class="skill-row__track">
+                  <span class="skill-row__fill" style="--fill: 75%;"></span>
+                </div>
+              </li>
+              <li class="skill-row">
+                <div class="skill-row__head">
+                  <span class="skill-row__name">运动自律与抗压</span>
+                  <span class="skill-row__level">90%</span>
+                </div>
+                <div class="skill-row__track">
+                  <span class="skill-row__fill" style="--fill: 90%;"></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 大学积累：保留持续更新空间，后续可补充课程、社团、竞赛和项目 -->
+    <section class="section university" id="university">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <span class="section-heading__index">03</span>
+          <h2 class="section-heading__title">大学积累</h2>
+        </div>
+
+        <div class="resume-grid">
+          <div class="glass-card card-block" data-reveal>
+            <div class="card-block__heading">
+              <span class="card-block__dot" aria-hidden="true"></span>
+              <h3>当前进度</h3>
+            </div>
+            <ol class="timeline">
+              <li class="timeline__item">
+                <span class="timeline__date">2026.09 - 2030.06（预计）</span>
+                <h4 class="timeline__title">黑龙江工程学院 · 功能材料专业</h4>
+                <p class="timeline__desc">本科在读。大学课程、校园活动与专业实践将在这里持续更新。</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__date">2026.09 - 至今</span>
+                <h4 class="timeline__title">人工智能相关内容学习</h4>
+                <p class="timeline__desc">正在学习人工智能训练、数据标注与基础模型训练相关内容，并结合已有学习基础继续补充实践；已取得阿里巴巴橙点同学人工智能训练师（初级）相关认证。</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__date">2026.09 - 至今</span>
+                <h4 class="timeline__title">PPT 制作学习</h4>
+                <p class="timeline__desc">正在练习 PPT 结构设计、版式排版与视觉表达，为课堂汇报、项目展示和活动复盘做准备。</p>
+              </li>
+            </ol>
+          </div>
+
+          <div class="glass-card card-block" data-reveal style="--reveal-delay: .12s">
+            <div class="card-block__heading">
+              <span class="card-block__dot card-block__dot--cyan" aria-hidden="true"></span>
+              <h3>持续积累</h3>
+            </div>
+            <ol class="timeline">
+              <li class="timeline__item">
+                <span class="timeline__date">AI 实践</span>
+                <h4 class="timeline__title">学习成果与项目记录</h4>
+                <p class="timeline__desc">把课程练习、数据标注、训练流程和工具应用逐步整理成可展示的作品或复盘。</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__date">内容表达</span>
+                <h4 class="timeline__title">PPT 与校园汇报</h4>
+                <p class="timeline__desc">持续提升信息组织、页面排版和公开表达能力，用于课堂展示与项目汇报。</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__date">校园经历</span>
+                <h4 class="timeline__title">社团、竞赛与证书</h4>
+                <p class="timeline__desc">大学阶段新增的社团经历、竞赛成果、课程作品与证书将统一补充在这里。</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系方式：复制按钮会读取 data-copy 中的内容 -->
+    <section class="contact" id="contact">
+      <div class="container contact__container">
+        <div class="section-heading section-heading--center" data-reveal>
+          <span class="section-heading__index">04</span>
+          <h2 class="section-heading__title">联系方式</h2>
+          <p class="section-heading__lead">欢迎通过以下方式联系我</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card glass-card" data-reveal>
+            <div class="contact-card__content">
+              <span class="contact-card__label">微信</span>
+              <strong class="contact-card__value">burntowordsthesun</strong>
+            </div>
+            <button class="copy-btn" type="button" data-copy="burntowordsthesun" aria-label="复制微信号">
+              <svg class="copy-btn__icon copy-btn__icon--copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <svg class="copy-btn__icon copy-btn__icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span class="copy-btn__text">复制</span>
+            </button>
+          </div>
+
+          <div class="contact-card glass-card" data-reveal style="--reveal-delay: .08s">
+            <div class="contact-card__content">
+              <span class="contact-card__label">QQ</span>
+              <strong class="contact-card__value">3167971964</strong>
+            </div>
+            <button class="copy-btn" type="button" data-copy="3167971964" aria-label="复制QQ号">
+              <svg class="copy-btn__icon copy-btn__icon--copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <svg class="copy-btn__icon copy-btn__icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span class="copy-btn__text">复制</span>
+            </button>
+          </div>
+
+          <div class="contact-card glass-card" data-reveal style="--reveal-delay: .16s">
+            <div class="contact-card__content">
+              <span class="contact-card__label">电话</span>
+              <strong class="contact-card__value">18938815079</strong>
+            </div>
+            <button class="copy-btn" type="button" data-copy="18938815079" aria-label="复制电话号码">
+              <svg class="copy-btn__icon copy-btn__icon--copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <svg class="copy-btn__icon copy-btn__icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span class="copy-btn__text">复制</span>
+            </button>
+          </div>
+
+          <div class="contact-card glass-card" data-reveal style="--reveal-delay: .24s">
+            <div class="contact-card__content">
+              <span class="contact-card__label">邮箱</span>
+              <strong class="contact-card__value">3615762657@qq.com</strong>
+            </div>
+            <button class="copy-btn" type="button" data-copy="3615762657@qq.com" aria-label="复制邮箱地址">
+              <svg class="copy-btn__icon copy-btn__icon--copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <svg class="copy-btn__icon copy-btn__icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span class="copy-btn__text">复制</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
